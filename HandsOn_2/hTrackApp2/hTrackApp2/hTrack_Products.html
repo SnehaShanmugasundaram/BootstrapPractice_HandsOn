@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>Products - hTrack</title>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Javascript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <style>
+        .material-icons {
+            vertical-align: middle;
+        }
+        .favorite{
+            color:black;
+        }
+
+        .favorite:hover{
+            color:red;
+        }
+
+        footer{
+            font-size:smaller;
+            color:whitesmoke;
+            background-color:lightslategrey;
+        }
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">hTrack</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Goals</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h3>Products</h3>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZHVjdHMlMjBlc2NhcGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60" alt="Product_1" height="250" />
+                    <div class="card-body">
+                        <h4 class="card-title">Coco Oil(200g) <span class="badge badge-success">4.4<span class="material-icons" style="font-size:10px">star</span></span></h4>
+                        <p>Rs. 200.00 <small><strike>Rs. 250.00  </strike> 20%<span class="material-icons" style="color:#cc0000">new_releases</span></small></p>
+                        <p class="card-text">
+                            Escape is an innovative, skin-loving formulation, formulated with certified Fair Trade cold Pressed Organic Coconut Oil, Produced
+                            sustainably in the Pacific Islands and supporting local communities.
+                        </p>
+                        <a href="#" class="btn btn-success"><span class="material-icons">shopping_cart</span>Add to Cart</a>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#"><span class="material-icons favorite">favorite_border</span></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1519735777090-ec97162dc266?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="Product_2" height="250" />
+                    <div class="card-body">
+                        <h4 class="card-title">Mad About Waves(300 ml) <span class="badge badge-warning">3.5<span class="material-icons" style="font-size:10px">star</span></span></h4>
+                        <p>Rs. 150.00 <small><strike>Rs. 200.00</strike> 25% <span class="material-icons" style="color:#cc0000">new_releases</span></small></p>
+                        <p class="card-text">
+                            Mad About Waves is the holistic care and styling regime dedicated to beautifying every wave type.
+                            The range is designed to tame, respect and protect the hair – embracing each unique pattern, for breezy waves that last.
+                        </p>
+                        <a href="#" class="btn btn-success"><span class="material-icons">shopping_cart</span>Add to Cart</a>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#"><span class="material-icons favorite">favorite_border</span></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjN8fHByb2R1Y3R8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Product_3" height="250" />
+                    <div class="card-body">
+                        <h4 class="card-title">Maui Moisture(Bamboo Fibres Shampoo 305 ml) <span class="badge badge-warning">3.1<span class="material-icons" style="font-size:10px">star</span></span></h4>
+                        <p>Rs. 455.00</p>
+                        <p class="card-text">
+                            Exotic bamboo fibers are infused into this fortifying, shampoo blend with castor oil and neem oil to help strengthen and repair over-styled, damaged hair. It helps to renew and encourage healthy-looking glow.
+                        </p>
+                        <a href="#" class="btn btn-success"><span class="material-icons">shopping_cart</span>Add to Cart</a>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#"><span class="material-icons favorite">favorite_border</span></a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29mZmVlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="Product_4" height="250">
+                    <div class="card-body">
+                        <h4 class="card-title">Battlecreek coffee (200g) <span class="badge badge-danger">2.5<span class="material-icons" style="font-size:10px">star</span></span></h4>
+                        <p>Rs. 150.00 <small><strike>Rs. 200.00</strike> 25% <span class="material-icons" style="color:#cc0000">new_releases</span></small></p>
+                        <p class="card-text">
+                            Rich-toned, fruit-forward, deeply sweet. Strawberry jam, cocoa nib, ginger flower, fresh-cut fir, maple syrup in aroma and cup.
+                        </p>
+                        <a href="#" class="btn btn-success"><span class="material-icons">shopping_cart</span>Add to Cart</a>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#"><span class="material-icons favorite">favorite_border</span></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2EUQlpQ53taW5ulLEEG4Kn4V564ewUggKLQ&usqp=CAU" alt="Product_5" height="250" />
+                    <div class="card-body">
+                        <h4 class="card-title">Lapis Facial Oil (100ml) <span class="badge badge-success">4.8<span class="material-icons" style="font-size:10px">star</span></span></h4>
+                        <p>Rs. 750.00 <small><strike>Rs. 1000.00</strike> 25% <span class="material-icons" style="color:#cc0000">new_releases</span></small></p>
+                        <p class="card-text">
+                            Lapis Facial Oil is named for the precious blue oil it contains, Blue Tansy. This oil holds a component called Azulene which aids in soothing dry irritated skin, reducing the appearance of redness and balancing skin.
+                        </p>
+                        <a href="#" class="btn btn-success"><span class="material-icons">shopping_cart</span>Add to Cart</a>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="#"><span class="material-icons favorite">favorite_border</span></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        <hr />
+        <footer>
+            <p>&copy; Copyright 2021</p>
+        </footer>
+    </div>
+</body>
+</html>
